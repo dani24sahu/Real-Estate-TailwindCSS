@@ -16,14 +16,15 @@ export default {
       },
       // Creating custom color shades
       colors: {
-        black:{
-          400:"#ffffff",
-          500: "E5E5E5",
-          600:"#C4C4C4",
-          700:"#242527",
-          800:"#282828",
-          900:"#000000",
-        }
+        gray: {
+          light: "E5E5E5",
+          dark: "#C4C4C4",
+        },
+        black: {
+          dark: "#242527",
+          light: "#282828",
+          
+        },
       },
     },
   },
