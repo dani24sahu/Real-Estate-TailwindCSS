@@ -17,8 +17,8 @@ export default {
       // Creating custom color shades
       colors: {
         gray: {
-          light: "E5E5E5",
-          dark: "#C4C4C4",
+          dark: "E5E5E5",
+          light: "#C4C4C4",
         },
         black: {
           dark: "#242527",
