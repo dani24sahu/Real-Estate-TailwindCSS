@@ -7,7 +7,7 @@ export default {
       // Overwriting existing font-sizes
       fontSize: {
         sm: "0.7rem",  //12px
-        base: "0,875rem",  //14px
+        base: "0.875rem",  //14px
         md: "1rem",  //16px
         lg: "1.25rem",  //20px
         xl: "1.5rem",  //24px
