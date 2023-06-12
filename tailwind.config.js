@@ -16,6 +16,7 @@ export default {
         xl: "1.5rem", //24px
         "2xl": "1.75rem", //28px
         "3xl": "2.25rem", //36px
+        "4xl": "3rem",    //48px
       },
       // Creating custom color shades
       colors: {

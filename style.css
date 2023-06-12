@@ -26,10 +26,10 @@
 @layer base {
   /* Using @apply to tailwind classes */
   h3 {
-    @apply text-xl font-semibold text-black-light;
+    @apply text-xl  font-semibold text-black-light;
   }
   h2 {
-    @apply text-xl font-semibold text-black-dark;
+    @apply text-xl md:text-4xl font-semibold text-black-dark;
   }
 
   /* Giving padding to all buttons */

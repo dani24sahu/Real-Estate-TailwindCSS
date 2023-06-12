@@ -346,25 +346,43 @@
       </section>
 
       <!----------------------- Project Section --------------------------->
-      <section class="p-5 flex flex-col gap-8">
-        <h1>
+      <section class="p-5 flex flex-col gap-8 mx-auto max-w-[1200px]">
+        <h2>
           Our collection <br />
           best projects
-        </h1>
-        <div class="grid grid-cols-2 gap-5 max-w-[320px] self-center">
-          <img src="project1.png" alt="Project1" />
-          <img src="project2.png" alt="Project2" />
-          <img src="project3.png" alt="Project3" />
-          <img src="project4.png" alt="Project4" />
+        </h2>
+        <div
+          class="grid grid-cols-2 md:grid-cols-4 md:max-w-[1200px] gap-5 max-w-[320px] self-center "
+        >
+          <picture>
+            <source media="(min-width: 799px)" srcset="/bigProject1.png" />
+            <source media="(max-width: 800px)" srcset="/project1.png" />
+            <img src="project1.png" alt="Project1" />
+          </picture>
+          <picture>
+            <source media="(min-width: 799px)" srcset="/bigProject2.png" />
+            <source media="(max-width: 800px)" srcset="/project2.png" />
+            <img src="project2.png" alt="Project2" />
+          </picture>
+          <picture>
+            <source media="(min-width: 799px)" srcset="/bigProject3.png" />
+            <source media="(max-width: 800px)" srcset="/project3.png" />
+            <img src="project3.png" alt="Project1" />
+          </picture>
+          <picture>
+            <source media="(min-width: 799px)" srcset="/bigProject4.png" />
+            <source media="(max-width: 800px)" srcset="/project4.png" />
+            <img src="project4.png" alt="Project1" />
+          </picture>
         </div>
       </section>
     </main>
 
     <!------------------------ Footer Section -------------------------->
-    <footer
-      class="black-grad "
-    >
-      <div class="p-5 py-20 max-w-[1200px] text-white flex flex-col md:flex-row gap-[40px] md:gap-[140px] mx-auto">
+    <footer class="black-grad">
+      <div
+        class="p-5 py-20 max-w-[1200px] text-white flex flex-col md:flex-row gap-[40px] md:gap-[140px] mx-auto"
+      >
         <div class="flex flex-col gap-4 max-w-[550px]">
           <h2 class="text-white">Logo</h2>
           <p class="text-white">
@@ -378,7 +396,7 @@
             <img src="linkedin-logo.svg" alt="Linkedin Logo" />
           </div>
         </div>
-        <div class="flex  gap-8">
+        <div class="flex gap-8">
           <div class="flex flex-col">
             <h4 class="font-semibold text-lg">Company</h4>
             <p
