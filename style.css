@@ -22,10 +22,21 @@
   background: linear-gradient(219.84deg, #474747 4.14%, #222222 44.22%);
 }
 
-/* Overwriting Base layer h2 tag */
+/* Overwriting Base layer h2, h3 tags */
 @layer base {
   /* Using @apply to tailwind classes */
+  h3 {
+    @apply text-xl font-semibold text-black-light;
+  }
   h2 {
     @apply text-xl font-semibold text-black-dark;
+  }
+}
+
+/* Adding new class in Component layer */
+@layer components {
+  /* Using @apply to tailwind classes */
+  .text-gray {
+    @apply text-base text-gray-dark;
   }
 }
