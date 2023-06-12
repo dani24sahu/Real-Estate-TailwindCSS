@@ -47,11 +47,11 @@
   /* Using @apply to tailwind classes */
   /* for gary text */
   .text-gray {
-    @apply text-base text-gray-dark;
+    @apply text-base md:text-md text-gray-dark;
   }
 
   .text-gray-2 {
-    @apply text-base text-gray-light;
+    @apply text-base md:text-md text-gray-light;
   }
 
   /* for blue button */
