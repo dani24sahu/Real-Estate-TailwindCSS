@@ -262,27 +262,33 @@
       </section>
 
       <!---------------------- Story Section ------------------------------>
-      <section class="p-5 flex flex-col gap-4">
-        <img src="story-img.png" alt="Story Image" class="w-full shadow-md" />
-        <h2>Our Story Who we are</h2>
-        <p class="text-gray">
-          Established in 1992, PT. Wahana Cipta operates as a General
-          Contracting company with a footprint that we have planted throughout
-          Indonesia. Initially, we focused on construction in the field of
-          residential housing development in Jakarta. As the company grows, now
-          we are present as a reliable...
-        </p>
-        <button class="blue-btn self-start">See More</button>
+      <section class="p-5 flex flex-col gap-4 md:flex-row-reverse max-w-[1200px] mx-auto">
+        <img src="story-img.png" alt="Story Image" class="w-full shadow-md max-w-[570px] flex-1 border-8 border-white" />
+        <div class="flex flex-col gap-4 flex-1">
+          <h2>Our Story Who we are</h2>
+          <p class="text-gray">
+            Established in 1992, PT. Wahana Cipta operates as a General
+            Contracting company with a footprint that we have planted throughout
+            Indonesia. Initially, we focused on construction in the field of
+            residential housing development in Jakarta. As the company grows,
+            now we are present as a reliable...
+          </p>
+          <button class="blue-btn self-start">See More</button>
+        </div>
       </section>
 
       <!-------------------------- News Section -------------------------->
       <section class="p-5 max-w-[1200px] mx-auto">
         <h2>News & Update</h2>
-        <div class="flex mt-4 gap-5 overflow-x-auto ">
+        <div class="flex mt-4 gap-5 overflow-x-auto">
           <!-- card1 -->
           <div class="flex flex-col gap-2 min-w-[250px]">
             <div>
-              <img class="shadow-md md:w-[370px]" src="service1.png" alt="Service1" />
+              <img
+                class="shadow-md md:w-[370px]"
+                src="service1.png"
+                alt="Service1"
+              />
             </div>
             <div class="flex gap-4 align-baseline">
               <div>
@@ -303,7 +309,11 @@
           <!-- card2 -->
           <div class="flex flex-col gap-2 min-w-[250px]">
             <div>
-              <img class="shadow-md md:w-[370px]" src="service1.png" alt="Service1" />
+              <img
+                class="shadow-md md:w-[370px]"
+                src="service1.png"
+                alt="Service1"
+              />
             </div>
             <div class="flex gap-4 align-baseline">
               <div>
@@ -324,7 +334,11 @@
           <!-- card3 -->
           <div class="flex flex-col gap-2 min-w-[250px]">
             <div>
-              <img class="shadow-md md:w-[370px]" src="service1.png" alt="Service1" />
+              <img
+                class="shadow-md md:w-[370px]"
+                src="service1.png"
+                alt="Service1"
+              />
             </div>
             <div class="flex gap-4 align-baseline">
               <div>
@@ -352,7 +366,7 @@
           best projects
         </h2>
         <div
-          class="grid grid-cols-2 md:grid-cols-4 md:max-w-[1200px] gap-5 max-w-[320px] self-center "
+          class="grid grid-cols-2 md:grid-cols-4 md:max-w-[1200px] gap-5 max-w-[320px] self-center"
         >
           <picture>
             <source media="(min-width: 799px)" srcset="/bigProject1.png" />
