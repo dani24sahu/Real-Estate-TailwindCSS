@@ -4,6 +4,9 @@ export default {
   theme: {
     extend: {
       // Creating custom theme
+      boxShadow: {
+        "btn-shadow": "0px 10px 15px rgba(1, 115, 153, 0.2)",
+      },
       // Overwriting existing font-sizes
       fontSize: {
         sm: "0.7rem", //12px
@@ -24,9 +27,9 @@ export default {
           dark: "#242527",
           light: "#282828",
         },
-        blue:{
-          dark:"#0A72AD"
-        }
+        blue: {
+          dark: "#0A72AD",
+        },
       },
     },
   },
