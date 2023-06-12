@@ -41,7 +41,13 @@
 /* Adding new class in Component layer */
 @layer components {
   /* Using @apply to tailwind classes */
+  /* for gary text */
   .text-gray {
     @apply text-base text-gray-dark;
+  }
+
+  /* for blue button */
+  .blue-btn {
+    @apply bg-blue-dark text-white shadow-btn;
   }
 }
