@@ -1,6 +1,6 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@tailwind base; /*tags like h1, h2,, etc*/
+@tailwind components; /*classes like container, background, etc*/
+@tailwind utilities; /*paddings, margins etc, etc*/
 
 /* Created custom gradient color for button */
 .blue-grad {
@@ -16,7 +16,16 @@
     #003756 92.79%
   );
 }
+
 /* Created custom gradient for Hero section */
 .black-grad {
   background: linear-gradient(219.84deg, #474747 4.14%, #222222 44.22%);
+}
+
+/* Overwriting Base layer h2 tag */
+@layer base {
+  /* Using @apply to tailwind classes */
+  h2 {
+    @apply text-xl font-semibold text-black-dark;
+  }
 }
