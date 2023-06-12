@@ -17,15 +17,15 @@
 
     <!-----------------------Hero Section------------------------------>
     <main>
-      <section class="black-grad">
+      <section class="black-grad text-white flex flex-col md:flex-row md:items-end">
         <!--Hero text Section-->
         <div class="flex flex-col gap-2 pt-10 px-5 text-white">
-          <h1 class="font-medium text-xl">
+          <h1 class="font-medium text-xl md:text-5xl">
             We Provide <br />
             Architecture design <br />
             and Construction
           </h1>
-          <p class="text-[#C4C4C4] text-base">
+          <p class="text-gray-dark max-w-[560px] ">
             ​More than 100 building and housing projects that we have built. The
             building owner chose us over other contractors in Jakarta, because
             our work is different
@@ -39,13 +39,18 @@
         </div>
 
         <!--Hero Image Section-->
-        <div class="flex justify-end -mt-5 w-35 h-60">
-          <img src="hero_building.png" alt="Building Image" />
+        <!-- w-35 h-60 -->
+        <div class="flex justify-end -mt-5 "> 
+          <picture>
+            <source media="(min-width: 765px)" srcset="/hero_building.png">
+            <source media="(max-width: 768px)" srcset="/hero_building_small.png">
+            <img src="hero_building_small.png" alt="Small Building">
+          </picture>
         </div>
       </section>
 
       <!---------------------------Stats Section------------------------>
-      <section class="blue-grad-2 p-5 text-white gap-4 flex flex-col">
+      <section class="blue-grad-2 p-5 text-white gap-4 flex flex-col md:hidden">
         <div class="flex justify-between">
           <div>
             <div class="flex items-baseline">
